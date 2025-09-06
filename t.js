@@ -45,12 +45,12 @@ if (url.indexOf(user) != -1) {
         }
 
         // ✅ 【新增】激活临时号码并延长有效期
-        if ("mytempnumber_status" in obj) obj.mytempnumber_status = 1;
-        if ("mytempnumber_expiry" in obj) obj.mytempnumber_expiry = '2099-12-30';
+        //if ("mytempnumber_status" in obj) obj.mytempnumber_status = 1;
+        //if ("mytempnumber_expiry" in obj) obj.mytempnumber_expiry = '2099-12-30';
 
         // ✅ 【新增】开启语音信箱转录（如支持）
-        if ("vm_transcription_enabled" in obj) obj.vm_transcription_enabled = true;
-        if ("vm_transcription_user_enabled" in obj) obj.vm_transcription_user_enabled = true;
+        //if ("vm_transcription_enabled" in obj) obj.vm_transcription_enabled = true;
+        //if ("vm_transcription_user_enabled" in obj) obj.vm_transcription_user_enabled = true;
     }
 }
 
